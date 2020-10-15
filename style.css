@@ -1,0 +1,58 @@
+.body {
+	background-color:white;
+	font-size: 12px;
+	color: black;
+	font-family: arial, helvetica, sans-serif;
+	margin-top: 20px;
+}	
+/* navbar information obtained from https://www.w3schools.com/css/css_navbar_vertical.asp
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+li a{
+	display: block;
+	width: 70px;
+	padding: 10px 15px;
+	background-color: #009999;
+}
+
+li a:hover{
+	background-color:#004d4d;
+	color:white;
+}
+
+/* rounded blocks and margin inspiration from: https://www.w3schools.com/css/css3_borders.asp*/
+.block1 {
+	border-radius: 10px; 
+	background-color:#339966;
+	padding: 20px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+.block2 {
+	border-radius: 10px; 
+	background-color:#8cd9b3;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+/* Text CSS */
+.header1 {
+	font-size: 30px;
+}
+.text1{
+	font-size:25px;	
+}
+
+/* Images */
+
+.headshot{
+	border-radius: 10px;
+	float: right;
+}
