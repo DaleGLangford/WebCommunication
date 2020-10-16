@@ -80,11 +80,11 @@ a{
 	font-size: 30px;
 }
 .employer{
-	font-style:bold;
+	font-weight:bold;
 	font-size:20px;
 }
 .title{
-	font-style:bold;
+	font-weight:bold;
 	font-size:20px;
 	color:#009999;
 	margin-top: 5px;
