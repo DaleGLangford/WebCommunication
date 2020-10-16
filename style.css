@@ -66,7 +66,7 @@ a{
 }
 .picturegallery{
 	padding:20px;
-	float: center;
+	margin:auto;
 	text-align:center;
 }
 .footer{
