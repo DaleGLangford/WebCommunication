@@ -1,9 +1,10 @@
 .body {
 	background-color:white;
 	font-size: 18px;
+	margin:0;
+	padding:0;
 	color: black;
 	font-family: arial, helvetica, sans-serif;
-	margin-top: 20px;
 }	
 /* navbar information obtained from https://www.w3schools.com/css/css_navbar_vertical.asp */
 .navbar{
@@ -15,7 +16,7 @@
 }
 
 li {
-	float:right;
+	float:left;
 	margin-right:20px;
 	text-align:center;
 }
