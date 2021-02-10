@@ -10,7 +10,7 @@ body {
 	color: black;
 	font-family: arial, helvetica, sans-serif;
 }	
-/* navbar information obtained from https://www.w3schools.com/css/css_navbar_vertical.asp */
+/* ################# NAVBAR ################# */
 .navbar{
 	list-style-type: none;
 	margin: 0;
@@ -80,7 +80,7 @@ a{
 }
 
 
-/* Text CSS */
+/*  ################# TEXT #################  */
 .header1 {
 	font-size: 30px;
 }
@@ -111,8 +111,7 @@ a{
 }
 
 
-/* Images inspiration from https://www.w3schools.com/html/html_images.asp*/
-
+/* ################# IMAGES ################# */
 
 .headshot{
 	border-radius: 10px;
