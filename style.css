@@ -47,7 +47,7 @@ a{
 }
 
 
-/* rounded blocks and margin inspiration from: https://www.w3schools.com/css/css3_borders.asp*/
+/*   ################# BLOCKS #################  */
 .block1 {
 	border-radius: 10px; 
 	background-color:#339966;
