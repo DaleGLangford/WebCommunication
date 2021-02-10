@@ -134,7 +134,7 @@ li a:hover{
 /* ################# IMAGES ################# */
 
 .headshot{
-	border-radius: 10px;
+	border-radius: 100%;
 	float: right;
 	margin-right:30px;
 }
