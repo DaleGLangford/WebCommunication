@@ -30,6 +30,7 @@ li {
 li a{
 	display: block;
 	color:white;
+	text-decoration: none;
 	width: 110px;
 	margin: 1vw, 2vw;
 	padding: 10px 0px;
