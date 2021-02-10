@@ -14,9 +14,11 @@ body {
 .navbar{
 	list-style-type: none;
 	margin: 0;
-	padding:0;
+	padding-inline-start: 0;	
+	padding:0.5vw;
 	overflow: hidden;
-	background-color: #009999;
+	background-color: #004d4d;
+
 }
 
 li {
@@ -29,22 +31,35 @@ li a{
 	display: block;
 	color:white;
 	width: 110px;
-	padding: 10px 10px;
+	margin: 1vw, 2vw;
+	padding: 10px 0px;
 }
 
 li a:hover{
-	background-color:#004d4d;
+	background-color:#009999;
+	border-radius: 0.5vw; 
+
 }
 
-li a:active{
-	background-color:#04a0a0;
+.active{
+	display: block;
+	color:#00ffd9;
+	width: 110px;
+	margin: 1vw, 2vw;
+	padding: 10px 0px;
 }
 
-a{
+.link{
 	font-weight:bold;
 	text-decoration: none;
 	color:white;
 }
+
+.link:hover{
+	color:#009999
+}
+
+
 
 
 /*   ################# BLOCKS #################  */
