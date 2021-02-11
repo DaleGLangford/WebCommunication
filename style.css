@@ -1,5 +1,5 @@
 input:focus {
-	background-color: #004d4d;		
+	background-color: #fafafa;		
 }
 
 body {
@@ -8,22 +8,31 @@ body {
 	margin:0;
 	padding:0;
 	color: black;
-	font-family: arial, helvetica, sans-serif;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
 }	
-/* ################# NAVBAR ################# */
+
+/* ################# Header Image ################# */
+.header{
+	background-image: url(images/Banner.png);
+	margin:0;
+	padding:0;
+	height:10vw
+}
+
+
+/* ################# Navbar ################# */
 .navbar{
 	list-style-type: none;
 	margin: 0;
-	padding-inline-start: 0;	
-	padding:0.75vw;
+	padding:0;
+	top:0;	
 	overflow: hidden;
-	background-color: #004d4d;
-
+	background-color: #000000;
+	position: sticky;
 }
 
 li {
 	float:left;
-	margin-right:20px;
 	text-align:center;
 }
 
@@ -36,18 +45,26 @@ li a{
 	padding: 10px 0px;
 }
 
+li a:focus{
+	border-color:#02b1b1;
+	border-style: solid;
+	background-color:#fafafa;
+	color:#020202;
+	font-weight: bold;
+
+}
+
+
 li a:hover{
-	background-color:#009999;
-	border-radius: 0.5vw; 
+	background-color:#02b1b1;
+	color:#181717;
+	font-weight: bold;
 
 }
 
 .active{
 	display: block;
-	color:#00ffd9;
-	width: 110px;
-	margin: 1vw, 2vw;
-	padding: 10px 0px;
+	background-color:#016868;
 }
 
 .link{
@@ -60,6 +77,18 @@ li a:hover{
 	color:#009999
 }
 
+/*   ################# WebpageIntro #################  */
+
+.headerText{
+	font-size:20pt;
+	text-align: center;
+	color:#020202
+}
+.headerText2{
+	font-size:15pt;
+	text-align: center;
+	color:#000000
+}
 
 
 
@@ -101,14 +130,14 @@ li a:hover{
 
 
 /*  ################# TEXT #################  */
-.header1 {
+.title1 {
 	font-size: 30px;
 }
 .employer{
 	font-weight:bold;
 	font-size:20px;
 }
-.title{
+.title2{
 	font-weight:bold;
 	font-size:20px;
 	color:#009999;
