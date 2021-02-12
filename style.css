@@ -83,14 +83,19 @@ li a:hover{
 .link{
 	font-weight:bold;
 	text-decoration: none;
-	color:#016868;
+	color:#08bbbb;
 }
 
 .link:hover{
-	color:#03d5ce;
+	color:#014e4b;
 	font-size: 15pt;
 
 }
+
+.link:focus{
+	background-color: #05eeee;
+	color:#000000;	
+}		
 
 /*   ################# WebpageIntro #################  */
 
