@@ -8,9 +8,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel= "stylesheet" href="style.css">
-	<script src="archaeoMaps.js"></script>
+
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9JiOUjKB61eY3aT_ZmBv5K4u8tjX_d9g&callback=initMap&libraries=&v=weekly" defer></script>	
+  	<script src="archaeoMaps.js"></script>
 </head> 
 
 
@@ -30,18 +32,8 @@
 </div>
 
 <div class = block3>
-<img src = "https://maps.googleapis.com/maps/api/staticmap?center=53.125420,%20-9.766852&zoom=15&size=200x200&scale=2&maptype=hybrid&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo" alt = "Dun Aonghasa" >
-<h1 class = "title2"> Home Office </h1>
 <p class = "text2"> Dun Aonghasa Hill Fort</p>
-<p class = "text2"> Inishmore, Aran Islands </p>
-<p class = "text2"> County Galway, Ireland </p>
-<p class = "text2"> H91 YT20</p>
-<img src = "https://maps.googleapis.com/maps/api/staticmap?center=49.959119,%20-5.206660&zoom=15&size=200x200&scale=2&maptype=hybrid&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo" alt = "Lizard Point">
-<h1 class = "title2"> Party House </h1>
-<p class = "text2"> Lizard Point</p>
-<p class = "text2"> Lizard, Helston </p>
-<p class = "text2"> United Kingdom </p>
-<p class = "text2"> TR12 7NT</p>
+<div id="contactMap"></div>
 </div>
 
 <!-- footer -->
