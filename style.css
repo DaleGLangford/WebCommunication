@@ -93,7 +93,7 @@ li a:hover{
 /*   ################# WebpageIntro #################  */
 
 .intro{
-	border-bottom: #000000;
+	border: #000000;
 	border-width: 1.5px;
 }
 
@@ -105,12 +105,15 @@ li a:hover{
 .headerText2{
 	font-size:15pt;
 	text-align: center;
-	color:#000000
+	color:#000000;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 
 
 /*   ################# BLOCKS #################  */
+
 .blockTitle{
 	padding: 0.5vw;
 	margin-top: 0;
@@ -126,10 +129,40 @@ li a:hover{
 	margin-right:20vw;
 }
 
-.aboutText{
-	margin-top: 0;
+
+
+.block1 {
+	border-radius: 10px; 
+	background-color:#339966;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+.block2 {
+	border-radius: 10px; 
+	background-color:#8cd9b3;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+.block3 {
+	border-radius: 10px; 
+	background-color:#8cd9b3;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	text-align:center;
+}
+.picturegallery{
+	padding:20px;
+	margin:auto;
+	text-align:center;
 }
 
+/*   ################# MEDIA #################  */
 @media only screen and (max-width: 1000px) {
 
 	.blockTitle{
@@ -169,46 +202,20 @@ li a:hover{
   }
 
 
-.block1 {
-	border-radius: 10px; 
-	background-color:#339966;
-	padding: 20px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right:20px;
-}
-.block2 {
-	border-radius: 10px; 
-	background-color:#8cd9b3;
-	padding: 10px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right:20px;
-}
-.block3 {
-	border-radius: 10px; 
-	background-color:#8cd9b3;
-	padding: 10px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right:20px;
-	text-align:center;
-}
-.picturegallery{
-	padding:20px;
-	margin:auto;
-	text-align:center;
-}
-.footer{
-	border-radius: 10px;
-	padding: 10px;
-}
+
 
 
 /*  ################# TEXT #################  */
+
+
 .title1 {
 	font-size: 30px;
 }
+
+.aboutText{
+	margin-top: 0;
+}
+
 .employer{
 	font-weight:bold;
 	font-size:20px;
@@ -227,20 +234,13 @@ li a:hover{
 	font-size:20px;
 	padding: 0px;
 }
-.footertext{
-	text-align:right;
-	color:#006666;
-	font-size: 15px;
-	padding:30px;
-	margin-left: 20px;
-}
 
 
-/* ################# IMAGES ################# */
+
+/* ################# Images ################# */
 
 .headshot{
 	border-radius: 100%;
-	float: right;
 	margin-right:30px;
 }
 .mattock{
@@ -248,4 +248,23 @@ li a:hover{
 	float: right;
 	margin-right:20px;
 }	
+
+
+/* ################# Footer ################# */
+
+.footer {
+	background-color: #016868;
+	position: static;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
 	
+.foottext {
+	color:rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 0;
+	padding: 1vw;
+}
