@@ -173,6 +173,35 @@ li a:hover{
 
 }
 
+@media only screen and (max-width: 800px) {
+	.block1 {
+		width: 80%;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin:auto
+	}
+
+	.projects {
+		display:flex;
+		width:80%;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin:auto
+	
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.projects {
+		display:flex;
+		width:80%;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin:auto
+	
+	}
+}
+
 .picturegallery{
 	padding:20px;
 	margin:auto;
@@ -247,6 +276,14 @@ li a:hover{
 	font-size: 30px;
 }
 
+@media only screen and (max-width: 500px) {
+	.title3 {
+		width:80%;
+		margin: auto;
+		font-size: 30px;
+	}
+}
+
 .aboutText{
 	margin-top: 0;
 	text-align: justify;
@@ -296,6 +333,23 @@ li a:hover{
 		padding-bottom: 3vw;
 	}
   }
+
+  .image2{
+	border-radius: 10px;
+	float: right;
+	margin:auto;
+}	
+
+
+@media only screen and (max-width: 500px) {
+
+	.image2{
+		display: none;
+	}
+  }
+
+
+
 
 
 
