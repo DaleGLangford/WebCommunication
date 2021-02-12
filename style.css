@@ -195,8 +195,8 @@ li a:hover{
 	.aboutMe{
 		padding: 0.5vw;
 		margin-top: 0;
-		margin-left: 2vw;
-		margin-right:2vw;
+		width: 80%;
+		margin: auto;
 	}
 	.headshot{
 		display:none;
@@ -249,8 +249,21 @@ li a:hover{
 .mattock{
 	border-radius: 10px;
 	float: right;
-	margin-right:20px;
+	margin-right:auto;
 }	
+
+
+@media only screen and (max-width: 900px) {
+
+	.mattock{
+		border-radius: 10px;
+		float: right;
+		height:100%;
+		width: 100%;
+		margin-right:auto;
+		padding-bottom: 3vw;
+	}
+  }
 
 
 /* ################# Footer ################# */
