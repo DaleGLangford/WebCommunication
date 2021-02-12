@@ -100,8 +100,11 @@ li a:hover{
 /*   ################# WebpageIntro #################  */
 
 .intro{
-	border: #000000;
-	border-width: 1.5px;
+	border-bottom:solid;
+	border-color: #000000;
+	border-width: 1pt;
+	width:60%;
+	margin:auto;
 }
 
 .headerText{
@@ -202,10 +205,6 @@ li a:hover{
 		display:none;
 	}
   }
-
-
-
-
 
 /*  ################# TEXT #################  */
 
