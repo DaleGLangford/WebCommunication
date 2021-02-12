@@ -2,16 +2,16 @@
 
 // Initialize and add the map
 function initMap() {
-// The location of Uluru
-const uluru = { lat: -25.344, lng: 131.036 }; // uluru variable set at lat long
-// The map, centered at Uluru
+// The location of Lakehead University
+const Lakehead = { lat: 48.421, lng: -89.260 }; // Lakehead variable set at lat long
+// The map, centered at Lakehead
 const map = new google.maps.Map(document.getElementById("contactMap"), {
-    zoom: 4,
-    center: uluru, // centres on Uluru
+zoom: 13,
+center: Lakehead, // centres on Lakehead
 });
-// The marker, positioned at Uluru
+// The marker, positioned at Lakehead
 const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
+position: Lakehead,
+map: map,
 });
 }
