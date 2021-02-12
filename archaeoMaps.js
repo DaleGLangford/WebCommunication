@@ -27,7 +27,7 @@ const stonyIW = new google.maps.InfoWindow({
     content: stonyContent,
 });
 
-marker1.addListener("click", () => {
+marker.addListener("click", () => {
     stonyIW.open(map, marker)
 });
 
