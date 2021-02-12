@@ -15,4 +15,20 @@ const marker = new google.maps.Marker({
 position: Stony,
 map: map,
 });
+
+const stonyContent = 
+'<div><h2> 3 Anthony Court</h2></div>' +
+'<div>Stony Stratford</div>' +
+'<div>Buckinghamshire</div>' +
+'<div><b>Phone:</b> 1 (123) 456-7897</div>' +
+'<div><b>Email:</b> dalemapsthings@gmail.com</div>';
+
+const stonyIW = new google.maps.InfoWindow({
+    content: stonyContent,
+});
+
+marker1.addListener("click", () => {
+    stonyIW.open(map, marker)
+});
+
 }
