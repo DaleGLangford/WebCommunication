@@ -83,11 +83,13 @@ li a:hover{
 .link{
 	font-weight:bold;
 	text-decoration: none;
-	color:white;
+	color:#016868;
 }
 
 .link:hover{
-	color:#009999
+	color:#03d5ce;
+	font-size: 15pt;
+
 }
 
 /*   ################# WebpageIntro #################  */
@@ -130,23 +132,20 @@ li a:hover{
 }
 
 
-
 .block1 {
-	border-radius: 10px; 
-	background-color:#339966;
-	padding: 20px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right:20px;
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
 }
+
 .block2 {
-	border-radius: 10px; 
-	background-color:#8cd9b3;
-	padding: 10px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right:20px;
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
 }
+
 .block3 {
 	border-radius: 10px; 
 	background-color:#8cd9b3;
