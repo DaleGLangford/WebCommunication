@@ -37,13 +37,14 @@ li {
 }
 
 li a{
-	display: block;
+	display: inline-block;
 	color:white;
 	text-decoration: none;
 	width: 110px;
-	margin: 1vw, 2vw;
 	padding: 10px 0px;
 }
+
+
 
 li a:focus{
 	border-color:#02b1b1;
@@ -67,6 +68,18 @@ li a:hover{
 	background-color:#016868;
 }
 
+@media only screen and (max-width: 350px) {
+
+	li a{
+		color:white;
+		display:list-item;
+		text-decoration: none;
+		width: 100px;
+		padding: 10px 0px;
+	}
+  }
+
+/*   ################# Links #################  */
 .link{
 	font-weight:bold;
 	text-decoration: none;
@@ -78,6 +91,11 @@ li a:hover{
 }
 
 /*   ################# WebpageIntro #################  */
+
+.intro{
+	border-bottom: #000000;
+	border-width: 1.5px;
+}
 
 .headerText{
 	font-size:20pt;
@@ -93,6 +111,64 @@ li a:hover{
 
 
 /*   ################# BLOCKS #################  */
+.blockTitle{
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+
+}
+.aboutMe {
+	display:flex;
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+}
+
+.aboutText{
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.blockTitle{
+		padding: 0.5vw;
+		margin-top: 0;
+		margin-left: 20px;
+		margin-right:20px;
+	}
+
+	.aboutMe {
+		display:flex;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin-left: 20px;
+		margin-right:20px;
+	}
+
+	.headshot{
+		border-radius: 100%;
+		float: right;
+		margin-right:30px;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+	.aboutMe{
+		padding: 0.5vw;
+		margin-top: 0;
+		margin-left: 2vw;
+		margin-right:2vw;
+	}
+	.headshot{
+		display:none;
+	}
+  }
+
+
 .block1 {
 	border-radius: 10px; 
 	background-color:#339966;
