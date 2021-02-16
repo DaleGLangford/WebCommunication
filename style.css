@@ -168,7 +168,7 @@ li a:hover{
 	margin-top: 0;
 	margin-left: 20vw;
 	margin-right:20vw;
-	overflow:auto
+	overflow:auto;
 }
 
 @media only screen and (max-width: 800px) {
