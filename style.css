@@ -79,11 +79,11 @@ li a:hover{
 .link{
 	font-weight:bold;
 	text-decoration: none;
-	color:#08bbbb;
+	color:#014e4;
 }
 
 .link:hover{
-	color:#014e4b;
+	color:#08bbbb;
 	font-size: 15pt;
 
 }
